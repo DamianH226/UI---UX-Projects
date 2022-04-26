@@ -1,0 +1,48 @@
+
+
+h1 {
+    color: #9381FF; /* The CMYK is (42%, 49%, 0%, 0%) */
+    font-family: fantasy;
+    text-align: center;
+    font-size: 5vh;
+    
+}
+
+body {
+    font-family: 'Tangerine', serif;
+    text-align: center; /* This justifies the text within paragraph elements */
+    letter-spacing: .1vw; /* This expands the text slightly */
+    font-size: 3.0vw; /* Relative font sizing equal to 2.5% of the viewport width */
+    padding-top: 1vh;
+    background-color: #FFD8BE; /* The CMYK is (0%, 15%, 25%, 0%)  */
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-shadow: 4px 4px 4px #aaa;
+    
+}
+
+img {
+    display: block;
+    border-radius: 6px; /* Gives all images slightly rounded corners */
+    max-width: 100%; /* Ensures all images stay within the width of their container */
+    max-height: 100%; /* Ensures all images stay within the height of their container */
+    display: block; /* By specifying block display we can ensure our images are able to be centered */
+    margin: auto auto auto auto; /* This centers all images */
+    padding-bottom: 5px;
+}
+
+footer{
+    font-family: 'Tangerine', serif;
+    font-size: 2vh;
+    text-align: center;
+    background-color: #F8F7FF; /* The CMYK is (3%, 3%, 0%, 0%) */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20px;
+
+}
+
+button {
+    font-family: fantasy;
+}
