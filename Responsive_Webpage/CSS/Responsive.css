@@ -1,0 +1,54 @@
+
+
+
+  body {
+      background-color: rgb(205, 210, 214);
+      font-family: 'Trebuchet MS', Arial, sans-serif;
+      
+  }
+
+  footer {
+      background-color: rgb(173, 173, 173);
+  }
+
+  .navbar-brand {
+      text-decoration: underline;
+  }
+
+  .navbar-nav {
+      font-family: 'Trebuchet MS', Arial, sans-serif;
+  }
+
+  h1 {
+      text-decoration: underline;
+  }
+
+ 
+
+
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+  }
+
+  @media (min-width: 768px) {
+      .container {
+          width: 750px;
+      }
+  }
+
+  @media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
